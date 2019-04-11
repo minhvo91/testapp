@@ -1,0 +1,11 @@
+FROM alpine:latest
+
+MAINTAINER  Minh VO <minhvv91@gmail.com>
+
+ADD . /var/opt/testapp/
+
+https://download.oracle.com/otn/java/jdk/8u121-b13/e9e7ea248e2c4826b92b3f075a80e441/jdk-8u121-linux-x64.rpm
+
+EXPOSE 8080
+
+CMD java -cp ./testapp.jar kixeye.testapp.Main

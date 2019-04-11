@@ -1,0 +1,13 @@
+.idea/
+*.rdb
+.DS_Store
+dist/*
+target/
+project/boot/
+project/plugins/project/
+.history
+.cache
+.lib/
+
+*.class
+*.log
